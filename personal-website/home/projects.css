@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://media.beam.usnews.com/bd/c1/b1eb15f44e1fa0877f853e979280/181129-editorial.vertical.forests_lead.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: center;
+}
+
+body > section > div {
+    width: 90%;
+    height: 50px;
+    background-color:#046D9D;
+    color:white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: #58FF72 solid 4px;
+}
+
+section > nav p,
+section > nav a {
+    font-size: 22;
+    margin: 10px;
+}
+
+section > nav p {
+    color: #58FF72;
+}
+
+#logo {
+    margin-left: 50px;
+}
+
+#socials > a {
+    margin: 20px;
+    font-size: 170%;
+    color: white;
+}
+
+body nav {
+    font-size: 28px;
+    border-top: rgb(68, 68, 94) solid 4px;
+    margin: 0 auto;
+    border-bottom: #58FF72 solid 4px;
+}
+
+#home:hover,
+#projects:hover,
+#inspiration:hover,
+#contact:hover {
+    text-decoration: #233C5D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+article > div > p:nth-child(1) {
+    background-color: #EFEFF1;
+    border: #EFEFF1 solid 25px;
+    border-radius: 15px;
+}
+
+article > div > p:nth-child(2) {
+    border-left: 1px solid springgreen;
+    height: 100%;
+}
+
+article {
+    height: 40vw;
+    overflow: scroll;
+}
+
+
+
+/* z-index sets front/back 0 - some number */
+
+/* setting media query width = ~ img + nav height */
