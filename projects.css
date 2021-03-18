@@ -51,20 +51,28 @@ body nav {
     font-weight: bold;
 }
 
-article > div > p:nth-child(1) {
+article > div > #text {
     background-color: #EFEFF1;
-    border: #EFEFF1 solid 25px;
+    border: 5px solid #233C5D;
     border-radius: 15px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
 }
 
-article > div > p:nth-child(2) {
+article > div > p:nth-child(3) {
     border-left: 1px solid springgreen;
-    height: 100%;
 }
 
 article {
     height: 40vw;
     overflow: scroll;
+}
+
+article img {
+    width: 600px;
+    border: 5px solid #233C5D;
+    border-radius: 15px;
 }
 
 
