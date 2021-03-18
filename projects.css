@@ -55,7 +55,7 @@ article > div > #text {
     background-color: #EFEFF1;
     border: 5px solid #233C5D;
     border-radius: 15px;
-    width: 600px;
+    width: 35vw;
     text-align: center;
     padding: 20px;
 }
@@ -70,7 +70,7 @@ article {
 }
 
 article img {
-    width: 600px;
+    width: 35vw;
     border: 5px solid #233C5D;
     border-radius: 15px;
 }
