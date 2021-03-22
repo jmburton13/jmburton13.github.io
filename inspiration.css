@@ -1,8 +1,11 @@
 body {
     background-image: url("https://media.beam.usnews.com/bd/c1/b1eb15f44e1fa0877f853e979280/181129-editorial.vertical.forests_lead.jpg");
     background-repeat: no-repeat;
-    background-size: 90vw;
-    background-position-x: center;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    background-position: fixed;
+    background-attachment: fixed;
 }
 
 body > section > div {
@@ -50,3 +53,65 @@ body nav {
     text-decoration: underline;
     font-weight: bold;
 }
+
+article > div > #text {
+    background-color: #EFEFF1;
+    border: 5px solid #233C5D;
+    border-radius: 15px;
+    width: 35vw;
+    text-align: center;
+    padding: 20px;
+}
+
+article > div > p:nth-child(3) {
+    border-left: 1px solid springgreen;
+}
+
+article {
+    height: 40vw;
+    overflow: scroll;
+}
+
+article img {
+    width: 35vw;
+    border: 5px solid #233C5D;
+    border-radius: 15px;
+}
+
+.texttitle {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+@media only screen and (max-width: 700px) {
+    /* body {
+        background-image: url("https://media.beam.usnews.com/bd/c1/b1eb15f44e1fa0877f853e979280/181129-editorial.vertical.forests_lead.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+    } */
+
+    article img {
+        width: 75vw;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    article {
+        height: 100vw;
+        overflow: scroll;
+    }
+
+    body > section > div {
+        width: 90%;
+        height: 50px;
+  }
