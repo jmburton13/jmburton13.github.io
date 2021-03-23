@@ -107,8 +107,8 @@ article img {
     }
 
     article {
-        height: 100vw;
-        overflow: scroll;
+        height: 100vh;
+        /* overflow: scroll; */
     }
 
     body > section > div {
@@ -121,3 +121,4 @@ article img {
 /* z-index sets front/back 0 - some number */
 
 /* setting media query width = ~ img + nav height */
+}

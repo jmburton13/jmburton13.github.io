@@ -1,8 +1,11 @@
 body {
     background-image: url("https://media.beam.usnews.com/bd/c1/b1eb15f44e1fa0877f853e979280/181129-editorial.vertical.forests_lead.jpg");
     background-repeat: no-repeat;
-    background-size: 90vw;
-    background-position-x: center;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    background-position: fixed;
+    background-attachment: fixed;
 }
 
 body > section > div {
